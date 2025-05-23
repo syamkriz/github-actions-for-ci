@@ -1,3 +1,10 @@
+/**
+ * src/webpack.config.js
+ *
+ * Webpack configuration file for the React application.
+ * Defines the entry point, output bundle, module loaders (e.g., babel-loader for JS/JSX),
+ * plugins (e.g., HtmlWebpackPlugin for generating index.html), and development server settings.
+ */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
